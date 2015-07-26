@@ -14,6 +14,9 @@ public class BicycleDemo {
 		
 		Hero.setGear(5);
 		Hero.setCedace(20);
+		Hero.increasespeed(50);
+		Hero.decreasespeed(-10);
+		Hero.printstates();
 		
 	}
 
